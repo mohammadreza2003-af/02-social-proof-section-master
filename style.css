@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+}
+.con {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+  height: 720px;
+}
+.text {
+  position: absolute;
+  top: 11%;
+  left: 32%;
+  transform: translate(-30%, 15%);
+}
+.f-flex {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+h1 {
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-right: 20px;
+  color: hsl(300, 43%, 22%);
+}
+.f-flex p {
+  font-size: 18px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 400;
+}
+.star-r {
+  background-color: #f7f2f8;
+  padding: 16px 36px;
+  border-radius: 9px;
+}
+.star-b {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.star-ss {
+  fill: orangered;
+  width: 16px;
+  height: 16px;
+}
+.star-1 {
+  position: absolute;
+  top: 17%;
+  right: 18%;
+}
+.star-2 {
+  position: absolute;
+  top: 27%;
+  right: 16%;
+}
+.star-3 {
+  position: absolute;
+  top: 37%;
+  right: 12.8%;
+}
+.star-all {
+  color: hsl(300, 46%, 24%);
+  font-size: 18px;
+  font-weight: 500;
+}
+.per {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+.per-t {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.box-r {
+  color: white;
+  background-color: hsl(300, 43%, 22%);
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 24px;
+  padding: 32px 48px;
+  border-radius: 9px;
+}
+.grid-3-c {
+  display: flex;
+  gap: 24px;
+  margin-left: 160px;
+  margin-top: 370px;
+  position: absolute;
+}
+.person-2 {
+  margin-top: 12px;
+}
+.person-3 {
+  margin-top: 24px;
+}
+.text-p {
+  color: hsl(333, 80%, 67%);
+}
